@@ -1,16 +1,17 @@
-⚠️ **Security Notice – Domain Impersonation**
-
-The domain **feroxbuster.com** is **NOT affiliated** with this project, its maintainers, or any official feroxbuster releases.
-
-Official feroxbuster downloads are distributed **ONLY** through:
-
- - [https://github.com/epi052/feroxbuster](https://github.com/epi052/feroxbuster/releases) (open source)
- - [https://www.feroxbuster.pro](https://www.feroxbuster.pro) (commercial)
- - package repositories listed in this README
- - package repositories listed in the [installation docs](https://epi052.github.io/feroxbuster-docs/installation/android/)
-
- We do **not** distribute software from feroxbuster.com, and we cannot vouch for the authenticity or safety of files hosted there.  
- If you downloaded feroxbuster from any other domain, we strongly recommend deleting it and reinstalling from an official source.
+> [!WARNING]
+> **Security Notice – Domain Impersonation**
+>
+> The domain **feroxbuster.com** is **NOT affiliated** with this project, its maintainers, or any official feroxbuster releases.
+>
+> Official feroxbuster downloads are distributed **ONLY** through:
+>
+> - [https://github.com/epi052/feroxbuster](https://github.com/epi052/feroxbuster/releases) (open source)
+> - [https://www.feroxbuster.pro](https://www.feroxbuster.pro) (commercial)
+> - package repositories listed in this README
+> - package repositories listed in the [installation docs](https://epi052.github.io/feroxbuster-docs/installation/android/)
+>
+> We do **not** distribute software from feroxbuster.com, and we cannot vouch for the authenticity or safety of files hosted there.
+> If you downloaded feroxbuster from any other domain, we strongly recommend deleting it and reinstalling from an official source.
 
 <h1 align="center">
   <br>
@@ -57,30 +58,26 @@ Official feroxbuster downloads are distributed **ONLY** through:
 ![demo](img/demo.gif)
 
 <p align="center">
-  🦀
-  <a href="https://github.com/epi052/feroxbuster/releases">Releases</a> ✨
-  <a href="https://epi052.github.io/feroxbuster-docs/examples/auto-tune/">Example Usage</a> ✨
-  <a href="https://github.com/epi052/feroxbuster/blob/main/CONTRIBUTING.md">Contributing</a> ✨
-  <a href="https://epi052.github.io/feroxbuster-docs/overview">Documentation</a> ✨
-  <a href="https://www.feroxbuster.pro">Pro</a>
-  🦀
+  <a href="https://github.com/epi052/feroxbuster/releases"><img src="https://img.shields.io/badge/Releases-CF4F4B?style=flat-square&logo=github&logoColor=white" alt="Releases"></a>&nbsp;
+  <a href="https://epi052.github.io/feroxbuster-docs/examples/auto-tune/"><img src="https://img.shields.io/badge/Examples-CF4F4B?style=flat-square" alt="Example Usage"></a>&nbsp;
+  <a href="https://github.com/epi052/feroxbuster/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contributing-CF4F4B?style=flat-square" alt="Contributing"></a>&nbsp;
+  <a href="https://epi052.github.io/feroxbuster-docs/overview"><img src="https://img.shields.io/badge/Documentation-CF4F4B?style=flat-square&logo=bookstack&logoColor=white" alt="Documentation"></a>&nbsp;
+  <a href="https://www.feroxbuster.pro"><img src="https://img.shields.io/badge/Pro-CF4F4B?style=flat-square" alt="Pro"></a>
 </p>
 
 ---
 
-<h1><p align="center">✨🎉👉 <a href="https://epi052.github.io/feroxbuster-docs/">NEW DOCUMENTATION SITE</a> 👈🎉✨</p></h1>
+> [!TIP]
+> **Documentation has moved!** &mdash; Instead of having a 1300 line `README.md` (sorry...), feroxbuster's documentation has moved to GitHub Pages. The move to hosting documentation on Pages should make it a LOT easier to find the information you're looking for, whatever that may be. Please check it out for anything you need beyond a quick-start.
+>
+> **[View the full documentation &#8594;](https://epi052.github.io/feroxbuster-docs/overview)**
 
-
-## 🚀 Documentation has **moved** 🚀  
-
-Instead of having a 1300 line `README.md` (sorry...), feroxbuster's documentation has moved to GitHub Pages. The move to hosting documentation on Pages should make it a LOT easier to find the information you're looking for, whatever that may be. Please check it out for anything you need beyond a quick-start. The new documentation can be found [here](https://epi052.github.io/feroxbuster-docs/overview). 
-
-## 😕 What the heck is a ferox anyway?
+## What the heck is a ferox anyway?
 
 Ferox is short for Ferric Oxide. Ferric Oxide, simply put, is rust. The name rustbuster was taken, so I decided on a
-variation. 🤷
+variation.
 
-## 🤔 What's it do tho?
+## What's it do tho?
 
 `feroxbuster` is a tool designed to perform [Forced Browsing](https://owasp.org/www-community/attacks/Forced_browsing).
 
@@ -94,11 +91,11 @@ credentials, internal network addressing, etc...
 This attack is also known as Predictable Resource Location, File Enumeration, Directory Enumeration, and Resource
 Enumeration.
 
-## ⏳ Quick Start
+## Quick Start
 
 This section will cover the minimum amount of information to get up and running with feroxbuster. Please refer the the [documentation](https://epi052.github.io/feroxbuster-docs/overview/), as it's much more comprehensive.
 
-### 💿 Installation
+### Installation
 
 There are quite a few other [installation methods](https://epi052.github.io/feroxbuster-docs/installation/android/), but these snippets should cover the majority of users. 
 
@@ -158,7 +155,7 @@ Please refer the the [documentation](https://epi052.github.io/feroxbuster-docs/o
 ./feroxbuster --update
 ```
 
-## 🧰 Example Usage
+## Example Usage
 
 Here are a few brief examples to get you started.  Please note, feroxbuster can do a **lot more** than what's listed below.  As a result, there are **many more** examples, with **demonstration gifs** that highlight specific features, in the [documentation](https://epi052.github.io/feroxbuster-docs/overview).
 
@@ -220,13 +217,12 @@ cat targets | ./feroxbuster --stdin --silent -s 200 301 302 --redirects -x js | 
 ./feroxbuster -u http://127.1 --data-urlencoded @file.payload
 ```
 
-## 🚀 Documentation has **moved** 🚀  
+> [!TIP]
+> For realsies, there used to be over 1300 lines in this README, but it's all been moved to the [new documentation site](https://epi052.github.io/feroxbuster-docs/overview). Go check it out!
+>
+> **[View the full documentation &#8594;](https://epi052.github.io/feroxbuster-docs/overview)**
 
-For realsies, there used to be over 1300 lines in this README, but it's all been moved to the [new documentation site](https://epi052.github.io/feroxbuster-docs/overview). Go check it out! 
-
-<h1><p align="center">✨🎉👉 <a href="https://epi052.github.io/feroxbuster-docs/overview">DOCUMENTATION</a> 👈🎉✨</p></h1>
-
-## Contributors ✨
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
